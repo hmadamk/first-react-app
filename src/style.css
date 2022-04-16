@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+}
+
+.container {
+    width: min(90vw, 317px);
+    margin: auto;
+    margin-top: 44px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    margin-bottom: 44px;
+}
+
+header .hero-img {
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+}
+
+header .content {
+    text-align: center;
+}
+
+header .content h1 {
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+
+header .content h3 {
+    font-size: 12px;
+    color: #F3BF99;
+    margin: 0;
+    font-weight: normal;
+}
+
+header .content span {
+    color: #f5f5f5;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+header .btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header .btns button {
+    border-radius: 6px;
+    font-weight: 500;
+    border: none;
+    padding: .7em;
+    cursor: pointer;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .btns .linkedin {
+    margin-left: 17px;
+    background-color: #5093E2;
+    color: #fff;
+}
+
+header .btns i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+/* main Section styles*/
+main {
+    margin: auto;
+    margin-top: 33px;
+    width: 247px;
+}
+
+main h3 {
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+main p {
+    color: #dcdcdc;
+    font-size: 10.24px;
+}
+
+/*Footer section styles*/
+footer {
+    margin-top: 43px;
+    background-color: #161619;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer .icon {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
